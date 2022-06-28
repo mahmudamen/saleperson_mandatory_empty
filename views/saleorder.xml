@@ -17,7 +17,7 @@
         <field name="inherit_id" ref="sale.view_quotation_tree"/>
                 <field name="arch" type="xml">
                     <xpath expr="//tree/field[@name='user_id']"  position="replace">
-                        <field name="user_id" widget="timesheet_uom"/>
+                        <field name="user_id" />
                     </xpath>
                 </field>
             </record>
